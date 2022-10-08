@@ -1,0 +1,13 @@
+{
+  "name": "support-desk-app",
+  "version": "1.0.0",
+  "description": "1. Create-react-app\r    -creating support-desk-app in desktop\r    -npx create-react-app frontend\r    -creating layout using react-boostrap boostrap",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
